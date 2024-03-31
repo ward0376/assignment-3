@@ -31,4 +31,40 @@
     height: 600px;
     background-image:images/hands-typing.jpg;
     
+    img{
+        filter:greyscale(70%);
+}
+}
+
+
+.about-me{
+    flex-wrap: wrap;
+    max-width: 940px;
+    align-content: center;
+}
+
+.sercices{
+    flex-wrap: wrap;
+    max-width: 940px;
+    align-content: center;
+    background-color: #fafafa;
+    display: grid;
+    column-count: 3;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    flex-direction: column;
+    
+}
+
+.h1{
+    max-width: 900px;
+    align-items: center;
+}
+
+.work{
+    flex:wrap;
+    max-width: 940px;
+    justify-content: center;
+    display:grid;
+    grid-template-areas: inherit;
 }
