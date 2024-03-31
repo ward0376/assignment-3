@@ -1,10 +1,34 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 
 .header{
+    margin: auto;
     background-color: #000;
     color: #fff;
     max-width: 940px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.nav ul{
+    display:flex;
+    list-style:none;
+}
+
+.nav ul li{
+    display: grid;
+    column-gap: 20px;
+}
+
+
+
+
+
+.hero{
+    height: 600px;
+    background-image:images/hands-typing.jpg;
+    
 }
